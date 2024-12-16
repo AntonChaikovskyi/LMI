@@ -1,0 +1,133 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Italic_16x.png" />
+    <None Remove="Resources\Document_16x.png" />
+    <None Remove="Resources\Images\AlignBoth_16x.png" />
+    <None Remove="Resources\Images\AlignLeft_16x.png" />
+    <None Remove="Resources\Images\AlignRight_16x.png" />
+    <None Remove="Resources\Images\ApplicationAccess_16x.png" />
+    <None Remove="Resources\Images\Bold_16x.png" />
+    <None Remove="Resources\Images\BulletList_16x.png" />
+    <None Remove="Resources\Images\Close_8x_16x.png" />
+    <None Remove="Resources\Images\Copy_16x.png" />
+    <None Remove="Resources\Images\Cut_16x.png" />
+    <None Remove="Resources\Images\FontColor_16x.png" />
+    <None Remove="Resources\Images\Home_16x.png" />
+    <None Remove="Resources\Images\Image_16x.png" />
+    <None Remove="Resources\Images\Italic_16x.png" />
+    <None Remove="Resources\Images\LineChart_16x.png" />
+    <None Remove="Resources\Images\OpenFolder_16x.png" />
+    <None Remove="Resources\Images\Paste_16x.png" />
+    <None Remove="Resources\Images\PrintDialog_16x.png" />
+    <None Remove="Resources\Images\Property_16x.png" />
+    <None Remove="Resources\Images\Rectangle_16x.png" />
+    <None Remove="Resources\Images\Redo_16x.png" />
+    <None Remove="Resources\Images\SaveAll_16x.png" />
+    <None Remove="Resources\Images\Search_16x.png" />
+    <None Remove="Resources\Images\Table_16x.png" />
+    <None Remove="Resources\Images\Underline_16x.png" />
+    <None Remove="Resources\Images\Undo_16x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Images\AlignBoth_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\AlignLeft_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\AlignRight_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\ApplicationAccess_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Bold_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\BulletList_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Close_8x_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Copy_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Cut_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Document_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\FontColor_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Home_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Image_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Italic_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\LineChart_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\OpenFolder_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Paste_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\PrintDialog_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Property_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Rectangle_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Redo_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\SaveAll_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Search_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Table_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Underline_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\Images\Undo_16x.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Italic_16x.png" />
+  </ItemGroup>
+
+</Project>
